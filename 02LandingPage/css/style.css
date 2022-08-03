@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300;400&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+body{
+     /* background:linear-gradient(45deg,#23C4ED 20%,#207398 80%); */
+    background:linear-gradient(45deg,rgb(69, 6, 6) 20%, rgb(199, 199, 203) 80%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+h1{
+     text-align: center;
+     margin-top: 20%;
+     font-family:'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 70px;
+     color: #fff;
+}
+span{
+     font-family: 'Oswald', sans-serif;
+     font-weight: 900;
+     color: #1f1f1f;
+     font-size: 100px;
+}
+
+p{
+     text-align: center;
+     margin-top: -30px;
+     color: azure;
+     font-size: 30px;
+     line-height: 3px;
+     
+}
+.btn_loc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+     background: transparent;
+     margin-top: 1rem;
+     border-radius: 0.6em;
+     border: 2px solid #fff;
+     padding: 1em 2em;
+     font-family:'Oswald', sans-serif ;
+     font-weight: 900;
+     cursor: grab;
+     text-transform: uppercase;
+     color: #fff;
+}
+
+.btn:hover{
+     color: #1f1f1f;
+     outline: 0;
+}
+
+.loc{
+     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.loc:hover{
+     box-shadow: 0 0 40px 40px #1f1f1f inset;
+     color: #fff;
+}
+
+.footer{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin-top: 100px;
+     width: 100%;
+     background:linear-gradient(45deg,rgb(199,199,203) 50%, rgb(69,6,6) 0%);
+     padding: 0%;
+     position: absolute;
+     bottom: 0%;
+     max-height: 1em;
+     
+}
+.footer>ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+justify-content: space-around;
+width: 80%;
+color: #fff;
+
+}
+.footer>ul>li:first-child{
+  color:rgb(69,6,6);
+}
